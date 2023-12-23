@@ -1,0 +1,35 @@
+﻿@model Categ
+
+<form method="post">
+
+	<div class="border shadow-lg mt-4 p-3">
+
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete Category</h2>
+			<hr />
+			</div>
+
+		<div class="row pb-2">
+			<div class="col-6">
+				<label asp-for="Name" class="mb-1"></label>
+				<input asp-for="Name" type="text" disabled class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+			</div>
+			<div class="col-6">
+				<label asp-for="Description" class="mb-1"></label>
+				<input asp-for="Description" disabled type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<input asp-for="Id" type="text" class="form-control " style="display:none" id="exampleInput" placeholder="Enter something...">
+
+			</div>
+
+
+		</div>
+		<button id="sub"  type="submit" class="btn btn-danger">Delete</button>
+		<a type="button" class="btn btn-outline-dark" asp-action="index" asp-controller="Categ" role="button">
+			Back To Category
+		</a>
+	</div>
+
+</form>
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,70 @@
+﻿@model Product 
+
+<form method="post" enctype="multipart/form-data">
+
+	<div class="border shadow-lg mt-4 p-3">
+
+
+
+		<div class="row pb-2">
+			<h2 class="text-primary">Create Product</h2>
+			<hr />
+			<div asp-validation-summary="All">
+
+			</div>
+		</div>
+
+		<div class="row pb-2">
+			<div class="col-6">
+				<label asp-for="Title" class="mb-1"></label>
+				<input asp-for="Title" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="Title" style="color:red"></span>
+			</div>
+			<div class="col-6">
+				<label asp-for="Description" class="mb-1"></label>
+				<textarea asp-for="Description" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something..."> </textarea>
+
+				<span asp-validation-for="Description" style="color:red"></span>
+			</div>
+		</div>
+
+
+			
+		<div class="row pb-2">
+			<div class="col-12">
+				<label asp-for="ListPrice" class="mb-1"></label>
+				<input asp-for="ListPrice" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="ListPrice" style="color:red"></span>
+			</div>
+
+		
+
+		</div>
+
+		<div class="row pb-2">
+			<div class="col-6">
+				<label asp-for="ImageFile" class="mb-1"></label>
+				<input asp-for="ImageFile" type="file" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+			</div>
+
+			<div class="col-6">
+				<label asp-for="CategId" class="mb-1"></label>
+				<input asp-for="CategId" type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="CategId" style="color:red"></span>
+			</div>
+
+		</div>
+
+		
+
+		<button id="sub" type="submit" class="btn btn-success">Create</button>
+		<a type="button" class="btn btn-outline-dark" asp-action="index" asp-controller="Product" role="button">
+			Back To Productory
+		</a>
+
+		</div>
+
+</form>
+ @section Scripts {
+ 	<partial name="_ValidationScriptsPartial" />
+ }

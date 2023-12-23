@@ -1,0 +1,41 @@
+﻿@model Categ
+
+<form method="post">
+
+
+
+	<div class="border mt-4 p-3">
+
+		<div class="row pb-2">
+			<h2 class="text-primary">Edit Category</h2>
+			<hr />
+			<div asp-validation-summary="All">
+			</div>
+		</div>
+
+		<div class="row pb-2">
+			<div class="col-6">
+				<label asp-for="Name" class="mb-1"></label>
+				<input asp-for="Name" type="text" class="form-control" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="Name" style="color:red"></span>
+			</div>
+			<div class="col-6">
+				<label asp-for="Description" class="mb-1"></label>
+				<input asp-for="Description" type="text" class="form-control" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="Description" style="color:red"></span>
+				<input asp-for="Id" type="text" class="form-control" style="display:none" id="exampleInput" placeholder="Enter something...">
+
+			</div>
+		</div>
+
+		<button id="sub" type="submit" class="btn btn-info">Edit</button>
+		<a type="button" class="btn btn-outline-dark" asp-action="index" asp-controller="Categ" role="button">
+			Back To Category
+		</a>
+
+	</div>
+
+</form>
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

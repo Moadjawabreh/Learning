@@ -1,0 +1,11 @@
+C:\Users\DELL\Desktop\Learning\Learning.Utility\bin\Debug\net8.0\Learning.Utility.deps.json
+C:\Users\DELL\Desktop\Learning\Learning.Utility\bin\Debug\net8.0\Learning.Utility.dll
+C:\Users\DELL\Desktop\Learning\Learning.Utility\bin\Debug\net8.0\Learning.Utility.pdb
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\Learning.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\Learning.Utility.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\Learning.Utility.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\Learning.Utility.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\Learning.Utility.dll
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\refint\Learning.Utility.dll
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\Learning.Utility.pdb
+C:\Users\DELL\Desktop\Learning\Learning.Utility\obj\Debug\net8.0\ref\Learning.Utility.dll

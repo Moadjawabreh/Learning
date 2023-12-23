@@ -1,0 +1,51 @@
+﻿@model Product
+
+<form method="post">
+
+	<div class="border shadow-lg mt-4 p-3">
+
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete Product</h2>
+			<hr />
+			</div>
+
+		<div class="row pb-2">
+			<div class="col-6">
+				<label asp-for="Title" class="mb-1"></label>
+				<input asp-for="Title" type="text" disabled class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="Title" style="color:red"></span>
+			</div>
+			<div class="col-6">
+				<label asp-for="Description"  class="mb-1"></label>
+				<input asp-for="Description" disabled type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="Description" style="color:red"></span>
+
+
+			</div>
+
+		
+
+			<div class="col-6">
+				<label asp-for="ListPrice" class="mb-1"></label>
+				<input asp-for="ListPrice" disabled type="text" class="form-control shadow-sm" id="exampleInput" placeholder="Enter something...">
+				<span asp-validation-for="ListPrice" style="color:red"></span>
+			</div>
+
+			<div class="row text-center pb-2">
+				<div class="col-12">
+					<img src="@Model.imageUrl" />
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<button id="sub"  type="submit" class="btn btn-danger">Delete</button>
+		<a type="button" class="btn btn-outline-dark" asp-action="index" asp-controller="Product" role="button">
+			Back To Productory
+		</a>
+	</div>
+
+</form>
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

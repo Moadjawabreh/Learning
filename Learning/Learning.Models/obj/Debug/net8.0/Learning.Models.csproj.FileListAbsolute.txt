@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\Learning\Learning.Models\bin\Debug\net8.0\Learning.Models.deps.json
+C:\Users\DELL\Desktop\Learning\Learning.Models\bin\Debug\net8.0\Learning.Models.dll
+C:\Users\DELL\Desktop\Learning\Learning.Models\bin\Debug\net8.0\Learning.Models.pdb
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.dll
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\refint\Learning.Models.dll
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.pdb
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\ref\Learning.Models.dll
+C:\Users\DELL\Desktop\Learning\Learning.Models\obj\Debug\net8.0\Learning.Models.csproj.AssemblyReference.cache

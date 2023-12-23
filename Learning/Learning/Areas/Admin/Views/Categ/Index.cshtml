@@ -1,0 +1,70 @@
+﻿@model List<Categ>
+
+@if (TempData["success"] != null)
+{
+	<h2>@TempData["success"]</h2>
+}
+
+	<div class="container">
+
+	<div class="row pt-4 pb-3" >
+		<div class ="col-6">
+			<h2 class="text-primary"> Category List</h2>
+		</div>
+		<div class="col-6 text-end">
+			<a asp-action="Create" asp-controller="Categ" class="btn btn-primary">
+				<i class="bi bi-plus-circle"></i> Create a new Category
+			</a>
+		</div>
+	</div>
+<table class="table table-bordered table-striped">
+	<thead>
+	<tr>
+		<th>
+			Catrgory ID
+		</th>
+
+		<th>
+			Catrgory Name
+
+		</th>
+
+		<th>
+			Catrgory Description
+
+		</th>
+
+
+		<th>
+			Actions	
+		</th>
+
+	</tr>
+	</thead>
+
+
+	<tbody>
+	
+		@foreach (var obj in Model)
+		{
+			<tr>
+				<td>
+					@obj.Id
+				</td>
+				<td>
+				@obj.Name
+				</td>
+				<td>
+				@obj.Description
+				</td>
+				<td class="text-center">
+						<a asp-controller="Categ" asp-route-CategId="@obj.Id" asp-action="Edit"><i class="bi bi-pencil-square"></i></a>
+						<a asp-controller="Categ" asp-route-CategId="@obj.Id" asp-action="Delete"><i class="bi bi-trash3-fill"></i></a>
+					</td>
+
+			</tr>
+	
+		}
+</table>
+
+</div>
